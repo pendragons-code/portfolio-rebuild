@@ -1,0 +1,27 @@
+extends layout
+
+block layout-content
+	div.View.WelcomeView
+		h1.Banner My portfolio <Blink>_
+		div.Message
+			div.Title
+				h3(style="text-align:center;") My main Fields of experience:<br> <br>
+				h5(style="text-align:left;")
+				i.fab.fa-node.mr-2(style='color:white;font-size:23px;') ‌‌ Nodejs
+				h5(style="text-align:left;")
+				i.fab.fa-linux.mr-2(style='color:white;font-size:25px;') ‌‌ Linux
+				h5(style="text-align:left;")
+				i.fab.fa-discord.mr-2(style='color:white;font-size:23px;') ‌‌ Discord.js
+				h5(style="text-align:left;")
+				i.fab.fa-chrome(style='color:white;font-size:25px;') ‌‌ Web-scraping <br> <br>
+			div.Title
+				h3(style="text-align:center;") Random things I have made:<br><br>
+				a(href="https://api.pendragonscode.xyz")
+					h5(style="text-align:left;") A terribly written API!
+				a(href="https://jasbot.pendragonscode.xyz")
+					h5(style="text-align:left;") Jasbot (v3 coming soon!)
+				a(href="https://pendragonscode.xyz")
+					h5(style="text-align:left;") The main site!
+		a(href="/")
+			div.NavButton 🏠 Home
+
